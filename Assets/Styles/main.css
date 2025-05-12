@@ -1,0 +1,125 @@
+/*
+    Union Road Nature Project Base Style Sheet
+
+    Author: Austin Elkins
+    Date: 2025-05-11
+    Filename: main.css
+    Supporting Files:
+
+*/
+
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+    display: block;
+}
+
+body {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: 1.2em;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+header img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(28, 77, 40);
+    font-size: 1.1em;
+    border: 1px solid rgb(28, 77, 40);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav li a:hover {
+    background-color: rgb(28, 77, 40);
+    color: white;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: rgb(28, 77, 40);
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: rgb(28, 77, 40);
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: rgb(28, 77, 40);
+    margin-top: 15px;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+
+footer {
+    border-top: 2px solid rgb(28, 77, 40);
+    clear: all;
+    float: left;
+    width: 100%;
+}
+
+footer img {
+    float: right;
+    max-width: 80px;
+    height: auto; 
+    margin-right: 10px; 
+    vertical-align: top;
+    margin-top: -55px;
+}

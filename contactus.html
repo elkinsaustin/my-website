@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   Union Road Nature Project Website
+   Author: Austin Elkins
+    Date: 2025-05-11
+    
+    Filename: contactus.html
+    Supporting Files: main.css, SmallLogo.png, URNPBanner.png
+
+-->
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="Assets\Styles\main.css" type ="text/css" >
+    
+</head>
+<body>
+    <div class="container">
+    
+    <header>
+        <img src="Assets/Images/URNPBanner.png" alt="URNP Banner" class="logo">
+    </header>
+
+    <nav class="horizontal">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="3635union.html">Project</a></li>
+            <li><a href="partners.html">Potential Partners</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="main">
+        <h1>Contacts Us</h1>
+        <img src="Assets/Images/flower4.png" alt="flower4" class="float-right">
+        <p>We would love to hear from you! Please fill out the form below to get in touch with us. Whether you have questions, suggestions, or want to get involved, your input is valuable to us.</p>
+
+                <section id="main">
+        
+            <form id="contactForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+        
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+        
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" 
+                       pattern="^\d{3}-\d{3}-\d{4}$" 
+                       placeholder="123-456-7890" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br><br>
+        
+                <label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Please send me more information about the project and future volunteer opportunities.
+                </label><br><br>
+        
+                <button type="button" id="sendButton">Send</button>
+                <button type="reset" id="resetButton">Reset</button>
+            </form>
+        </section>
+        <br/>
+        <br/>
+
+    </section>
+
+    <footer>
+        <address>
+            Union Road Nature Project<br>
+            Mehlville, MO 63125<br>
+            unionroadnatureproject@gmail.com
+        </address>
+
+        <img src="Assets/Images/SmallLogo.png" alt="Small Logo">
+    </footer>
+    
+    </div>
+    <script src="Assets/Scripts/contactus.js"></script>
+</body>
+</html>
